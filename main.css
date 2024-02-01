@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #f50808;
 }
 
 button {
@@ -20,10 +20,11 @@ button {
     top: 0;
     width: 250px;
     height: 100%;
-    background-color: #333;
+    background-color: #2600ff;
     color: #fff;
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    
+    box-shadow: 2px 0 5px rgba(62, 248, 5, 0.2);
 }
 
 .overlay {
@@ -33,7 +34,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(235, 16, 16);
 }
 .ovUB{
     display: block;
@@ -41,4 +42,9 @@ button {
 }
 .siUB{
     right:0px;
+}
+.btncl ,.close {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
 }
